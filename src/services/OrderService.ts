@@ -25,6 +25,14 @@ export class OrderService {
       total: 89.90,
       status: 'PREPARING',
       createdAt: new Date()
+    },
+    {
+      id: '4',
+      customerName: 'José Oliveira',
+      items: ['Sushi Combo 30 peças'],
+      total: 89.90,
+      status: 'PREPARING',
+      createdAt: new Date()
     }
   ];
 
